@@ -1,3 +1,16 @@
 class Triangle
-  # write code here
+  attr_accessor :l1, :l2, :l3
+  def initialization(l1, l2, l3)
+    @l1 = l1
+    @l2 = l2
+    @l3 = l3
+  end
+  
+  def kind
+    
+  end
+  
+  class TriangleError < StandardError
+    
+  end
 end
